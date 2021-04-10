@@ -37,7 +37,7 @@ export function seedDatabase(firebase) {
     genre: 'documentaries',
     maturity: '12',
     slug: 'citizenfour',
-  });
+  }); 
   firebase.firestore().collection('series').add({
     id: getUUID(),
     title: 'Super Size Me',
